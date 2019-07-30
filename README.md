@@ -8,7 +8,8 @@
 /item - документ
 
 ## Примеры. Структура запроса и ответа.
-##### /search - поиск
+
+### /search - поиск
 ```
 import { ajax } from 'rxjs/ajax'
 ajax({
@@ -52,7 +53,7 @@ data: {
 }
 ```
 
-##### /search/suggest - подсказки
+### /search/suggest - подсказки
 ```
 import { ajax } from 'rxjs/ajax'
 ajax({
@@ -75,7 +76,7 @@ data: [
 ]
 ```
 
-##### /item - документ
+### /item - документ
 ```
 import { ajax } from 'rxjs/ajax'
 ajax({
